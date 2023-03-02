@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 const {swaggerDoc :V1swaggerDoc}=require('./src/docs/swagger')
 
 // app.get("/", (req, res)=> {
-//     res.send("Hola jefecita")
+//     res.send("Hola Ruth")
 // })
 
 app.use(cors())
