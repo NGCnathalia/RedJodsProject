@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 
 const dbConnect =() =>{
     const MONGO_URI= process.env.MONGO_URI;
-    console.log(MONGO_URI);
     mongoose.set("strictQuery", false);
     mongoose.connect(MONGO_URI,{
       useNewUrlParser:true,
